@@ -12,4 +12,4 @@ cd ..
 echo "Trying to install NCDU tool:"
 wget -c "http://dev.yorhel.nl/download/ncdu-1.11.tar.gz" && tar -zxvf ncdu-1.11.tar.gz && cd ncdu-1.11/ && ./configure --prefix=/usr && make && sudo make install
 cd ..
-rm -rvf *
+rm -rvf softs_devel/
