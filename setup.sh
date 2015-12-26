@@ -3,7 +3,7 @@
 echo "Do you want to update your system?"
 sudo yum update
 echo "Do you want to install all Development Tools into your system?"
-sudo yum groupinstall "Development Tools" -y
+sudo yum groupinstall "Development Tools"
 echo "Do you want to install some features into your system?"
 sudo yum install lynx net-tools* ncurse* bc java-1.8.0-openjdk java-1.8.0-openjdk-devel java-1.8.0-openjdk-headless wget
 echo "Trying to install HTOP tool:"
