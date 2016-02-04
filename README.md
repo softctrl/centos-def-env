@@ -8,3 +8,4 @@ chmod +x setup.sh
 ./setup.sh
 rm setup.sh
 ```
+###Also this script works on Amaxon AMI 64bits.
