@@ -1,1 +1,7 @@
-{"name":"Centos-def-env","tagline":"Script to setup a default environment for development.","body":"### About\r\nHere just a simple script to configure a development desktop using CentOs.\r\n\r\n### Authors and Contributors\r\nWell, until now, just me @softctrl.\r\n\r\n### Contact\r\nso, you want talk with me or you want know more about waht i do. Check out my blog (www.0x09.com.br).\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Centos-def-env",
+  "tagline": "Script to setup a default environment for development.",
+  "body": "## centos-def-env\r\nScript to setup a default environment for development.\r\n# To use, just:\r\n\r\n```\r\ncurl https://raw.githubusercontent.com/softctrl/centos-def-env/master/setup.sh > setup.sh\r\nchmod +x setup.sh\r\n./setup.sh\r\nrm  -rvf setup.sh\r\n```\r\n\r\nif you want to install Asterisk:\r\n\r\n```\r\ncurl https://raw.githubusercontent.com/softctrl/centos-def-env/master/asterisk-deps.sh > asterisk-deps.sh\r\nchmod +x asterisk-deps.sh\r\n./setup.sh\r\nrm  -rvf asterisk-deps.sh\r\n```\r\nSo, this script just setup the environment. You need to install Asterisk after that.\r\n\r\n###Also this script works on Amaxon AMI 64bits.\r\n\r\n### Authors and Contributors\r\nWell, until now, just me @softctrl.\r\n\r\n### Contact\r\nso, you want talk with me or you want know more about waht i do. Check out my blog (www.0x09.com.br).",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

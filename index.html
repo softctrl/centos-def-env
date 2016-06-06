@@ -28,10 +28,32 @@
 
     <div class="container">
       <section id="main_content">
-        <h3>
-<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h3>
+        <h2>
+<a id="centos-def-env" class="anchor" href="#centos-def-env" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>centos-def-env</h2>
 
-<p>Here just a simple script to configure a development desktop using CentOs.</p>
+<p>Script to setup a default environment for development.</p>
+
+<h1>
+<a id="to-use-just" class="anchor" href="#to-use-just" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To use, just:</h1>
+
+<pre><code>curl https://raw.githubusercontent.com/softctrl/centos-def-env/master/setup.sh &gt; setup.sh
+chmod +x setup.sh
+./setup.sh
+rm  -rvf setup.sh
+</code></pre>
+
+<p>if you want to install Asterisk:</p>
+
+<pre><code>curl https://raw.githubusercontent.com/softctrl/centos-def-env/master/asterisk-deps.sh &gt; asterisk-deps.sh
+chmod +x asterisk-deps.sh
+./setup.sh
+rm  -rvf asterisk-deps.sh
+</code></pre>
+
+<p>So, this script just setup the environment. You need to install Asterisk after that.</p>
+
+<h3>
+<a id="also-this-script-works-on-amaxon-ami-64bits" class="anchor" href="#also-this-script-works-on-amaxon-ami-64bits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Also this script works on Amaxon AMI 64bits.</h3>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
