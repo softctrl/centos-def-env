@@ -8,6 +8,7 @@ sudo make install
 cd ..
 
 git clone https://github.com/google/glog.git
+## Based on <https://github.com/google/glog/issues/52>:
 cd glog && mkdir build && cd build
 export CXXFLAGS="-fPIC" && cmake -DCMAKE_INSTALL_PREFIX=/usr .. && make VERBOSE=1
 make && sudo make install
