@@ -1,3 +1,5 @@
+#!/bin/sh
+## Author: carlostimoshenkorodrigueslopes@gmail.com
 ## Just to add the correct repository:
 sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 sudo yum install yum-utils
