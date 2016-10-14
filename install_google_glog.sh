@@ -1,3 +1,5 @@
+#!/bin/sh
+## Author: carlostimoshenkorodrigueslopes@gmail.com
 ## Update Automake:
 wget http://ftp.gnu.org/gnu/automake/automake-1.14.tar.gz
 tar xvf automake-1.14.tar.gz
